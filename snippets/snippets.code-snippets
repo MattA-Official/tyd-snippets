@@ -20,7 +20,7 @@
   "List": {
     "prefix": "lst",
     "body": [
-      "${1:ListName}  [{2:Item}; {3:Item}; {4:Item};]"
+      "${1:ListName}  [${2:Item}; ${3:Item}; ${4:Item};]"
     ],
     "description": "List"
   },

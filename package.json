@@ -4,6 +4,7 @@
     "description": "A pack of snippets for the TyD language.",
     "version": "1.0.0",
     "icon": "icon.png",
+    "publisher": "CyaCal",
     "engines": {
         "vscode": "^1.44.0"
     },

@@ -1,0 +1,28 @@
+{
+    "name": "tyd-snippets",
+    "displayName": "TyD Snippets",
+    "description": "A pack of snippets for the TyD language.",
+    "version": "1.0.0",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "tyd",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "ttyd",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "extensionDependencies": [
+        "Matthew-Adcock.tyd-lang"
+    ]
+}

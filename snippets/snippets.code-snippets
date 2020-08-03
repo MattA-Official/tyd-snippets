@@ -1,0 +1,44 @@
+{
+  "An abstract TyD class": {
+    "prefix": "absc",
+    "body": [
+      "${1:name} *handle ${2:extendingName} *abstract {",
+      "    ${3:variable} ${4:placeholder}",
+      "}"
+    ],
+    "description": "An abstract TyD class"
+  },
+  "Extend a abstract.": {
+    "prefix": "exte",
+    "body": [
+      "${1:className} *source ${2:extendingName} {",
+      "  ",
+      "}"
+    ],
+    "description": "Extend a abstract."
+  },
+  "List": {
+    "prefix": "lst",
+    "body": [
+      "${1:ListName}  [{2:Item}; {3:Item}; {4:Item};]"
+    ],
+    "description": "List"
+  },
+  "Table": {
+    "prefix": "tbl",
+    "body": [
+      "${1:MapName}  { ",
+      "  ${2:Key} ${3:Value}; ",
+      "  ${4:Key} ${5:Value} ",
+      "}"
+    ],
+    "description": "Table"
+  },
+  "Comment": {
+    "prefix": "cmt",
+    "body": [
+      "# ${1:Comment}"
+    ],
+    "description": "Comment"
+  }
+}

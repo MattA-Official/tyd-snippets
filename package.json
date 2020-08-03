@@ -24,5 +24,9 @@
     },
     "extensionDependencies": [
         "Matthew-Adcock.tyd-lang"
-    ]
+    ],
+    "repository": {
+        "url": "https://github.com/cal3432/tyd-snippets",
+        "type": "git"
+    }
 }
